@@ -16,7 +16,7 @@
     
     <label for="tel">Numero de telefono:</label>
     <input type="tel" id="tel"name="tel" placeholder="0000-0000">
-"<br>      
+<br>      
  <label for="number">Numero de acompañantes:</label> 
   <input type="number" id="number" name="number" step="1" min="1 " max="5">
  <br>
@@ -25,9 +25,20 @@
 <label for="origen">lugar de origen:</label>
  <input type="text" id="origen" name="origen" value="San Salvador" readonly>
 <br>
-
-
-
- </form>
-  </body>
+<label for="destino">Seleccione su destino:</label>
+<select id="destino" name="destino"><option value="lauterbrunnen">Lauterbrunnen</option>
+<option value="Barcelona">Barcelona</option>
+<option value="Venecia">Venecia </option>
+</select>
+<br>
+<label for="date-salida">Fecha de salida:</label>
+<input type="date" id="date-salida" name="date-salida">
+<br>
+<label for="date-regreso">Fecha de regreso:</label>
+<input type="date" id="date-regreso" name="date-regreso">
+<br>
+<button type="submit">Enviar</button>
+<button type="reset">Limpiar</button>
+</form>
+    </body>
  </html> 
