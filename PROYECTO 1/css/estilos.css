@@ -1,3 +1,6 @@
+/* IMPORTACIÓN DE FUENTES (Google fonts)*/
+@import
+
 /* RESET BÁSICO (Primeros estilos) */
 * {
 margin: 0;
@@ -7,7 +10,7 @@ box-sizing: border-box;
 /* ESTILOS GENERALES (Selector de etiqueta)*/
 body {
 font-family: 'Inter', sans-serif;
-background-image: url(../img/street.jpg);
+background-image: url(../img/fondo-vintage-amarillo-estallido-sol_87720-109475.jpg);
 background-size: contain;
 color: #333;
 line-height: 1.6;
@@ -16,7 +19,7 @@ line-height: 1.6;
 HEADER Y NAVEGACIÓN
 ========================= */
 header {
-background-color: #2b270b81;
+background-color: #03020c81;
 color: #fff;
 padding: 10px;
 position: sticky; /* Posicionamiento sticky */
